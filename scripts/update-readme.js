@@ -7,37 +7,37 @@ fs.readdir(path.join(__dirname, '../src'), (err, files) => {
   }
 
   let readme = `
+
 # Icons
 
 Library of svg icons exported as React Components
 
-## Usage
+## Install
 
-*Web*
+\`\`\`
+npm i -S @chrisoverstreet/icons
+\`\`\`
 
+## Use
+
+On the Web! 🖥
 \`\`\`jsx
 import { Add } from '@chrisoverstreet/icons/react;
 
 export default () => <Add />;
 \`\`\`
 
-*Mobile*
-
+On mobile! 📱
 \`\`\`jsx
 import { Add } from '@chrisoverstreet/icons/react-native;
 
 export default () => <Add />;
 \`\`\`
 
-*Props*
-
-Props are spread to root \`<svg>\` element.
-
+Add props!
 \`\`\`jsx
 <Add className="custom-class" styles={{ height: '1em' }} />
 \`\`\`
-
-## Reference
 
 | Icon | Name |
 | :-: | - |
