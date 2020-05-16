@@ -34,10 +34,12 @@ import { Add } from '@chrisoverstreet/icons/react-native;
 export default () => <Add />;
 \`\`\`
 
-Add props!
+Add props...
 \`\`\`jsx
 <Add className="custom-class" styles={{ height: '1em' }} />
 \`\`\`
+
+## Reference
 
 | Icon | Name |
 | :-: | - |
