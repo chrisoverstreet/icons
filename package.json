@@ -4,7 +4,7 @@
   "description": "Icons",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -R dist && svgr src --out-dir dist --no-dimensions --native",
+    "build": "rm -R dist && svgr src --out-dir dist --no-dimensions --native --ext .jsx",
     "release": "npm version minor && npm publish . --access public"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/chrisoverstreet/icons#readme",
   "dependencies": {
+    "react": "^16.13.1",
     "react-native-svg": "^12.1.0"
   },
   "devDependencies": {
