@@ -2,7 +2,7 @@
   "name": "@chrisoverstreet/icons",
   "version": "0.6.0",
   "description": "Icons",
-  "main": "dist/index.js",
+  "main": "dist/index.jsx",
   "scripts": {
     "build": "rm -R dist && svgr src --out-dir dist --no-dimensions --ext jsx",
     "release": "npm version minor && npm publish . --access public"
@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/chrisoverstreet/icons#readme",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-native-svg": "^12.1.0"
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "@svgr/cli": "^5.4.0",
