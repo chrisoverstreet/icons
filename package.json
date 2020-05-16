@@ -4,7 +4,9 @@
   "description": "Icons",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && svgr src --out-dir dist --no-dimensions --native && babel dist --out-dir dist",
+    "build": "npm run build:react && npm run build:react-native",
+    "build:react": "rimraf react && svgr src --out-dir react --no-dimensions && babel react --out-dir react",
+    "build:react-native": "rimraf react-native && svgr src --out-dir react-native --no-dimensions --native && babel react-native --out-dir react-native",
     "release": "npm version minor && npm publish . --access public"
   },
   "repository": {
@@ -27,6 +29,7 @@
     "@babel/core": "7.9.6",
     "@babel/preset-react": "7.9.4",
     "@svgr/cli": "^5.4.0",
+    "metro-react-native-babel-preset": "^0.59.0",
     "npm-publish": "^0.4.7",
     "npm-version": "^1.1.0",
     "rimraf": "^3.0.2"
