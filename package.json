@@ -4,7 +4,7 @@
   "description": "Icons",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -R dist && svgr src --out-dir dist --no-dimensions --native --ext .jsx",
+    "build": "rm -R dist && svgr src --out-dir dist --no-dimensions --ext jsx",
     "release": "npm version minor && npm publish . --access public"
   },
   "repository": {
