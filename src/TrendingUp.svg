@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>TrendingUp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16 5.99999997 18.29 8.28999998 13.41 13.17 9.40999999 9.16999999 1.99999996 16.59 3.40999996 18 9.40999999 12 13.41 16 19.71 9.70999999 22 12 22 5.99999997"></polygon>
+    </defs>
+    <g id="TrendingUp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#6D8190" xlink:href="#path-1"></use>
+    </g>
+</svg>

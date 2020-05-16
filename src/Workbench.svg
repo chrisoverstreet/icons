@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Workbench</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,6.00000001 L16,6.00000001 L16,4.00000001 C16,2.89000001 15.1100001,2.00000001 14,2.00000001 L10,2.00000001 C8.89000004,2.00000001 8.00000001,2.89000001 8.00000001,4.00000001 L8.00000001,6.00000001 L4.00000001,6.00000001 C2.89000001,6.00000001 2.01000001,6.89000003 2.01000001,8.00000001 L2.00000001,19 C2.00000001,20.1100001 2.89000001,21 4.00000001,21 L20,21 C21.1100001,21 22,20.1100001 22,19 L22,8.00000001 C22,6.89000003 21.1100001,6.00000001 20,6.00000001 L20,6.00000001 Z M14,6.00000002 L10,6.00000002 L10,4.00000002 L14,4.00000002 L14,6.00000002 L14,6.00000002 Z" id="path-1"></path>
+    </defs>
+    <g id="Workbench" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#6D8190" xlink:href="#path-1"></use>
+    </g>
+</svg>
