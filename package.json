@@ -4,7 +4,7 @@
   "description": "Icons",
   "main": "dist/index.jsx",
   "scripts": {
-    "build": "rm -R dist && svgr src --out-dir dist --no-dimensions --ext jsx",
+    "build": "rimraf dist && svgr src --out-dir dist --no-dimensions && babel dist --out-dir dist",
     "release": "npm version minor && npm publish . --access public"
   },
   "repository": {
@@ -22,8 +22,12 @@
     "react": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.6",
+    "@babel/preset-react": "7.9.4",
     "@svgr/cli": "^5.4.0",
     "npm-publish": "^0.4.7",
-    "npm-version": "^1.1.0"
+    "npm-version": "^1.1.0",
+    "rimraf": "^3.0.2"
   }
 }
