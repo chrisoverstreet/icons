@@ -2,7 +2,7 @@
   "name": "@chrisoverstreet/icons",
   "version": "0.8.0",
   "description": "Icons",
-  "main": "dist/index.jsx",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && svgr src --out-dir dist --no-dimensions && babel dist --out-dir dist",
     "release": "npm version minor && npm publish . --access public"
