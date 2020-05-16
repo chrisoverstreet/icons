@@ -43,7 +43,7 @@ Props are spread to root \`<svg>\` element.
 | :-: | - |
 `;
 
-  files.forEach(file => readme += `| ![${file}](https://raw.githubusercontent.com/chrisoverstreet/icons/master/src/${file}) | ${file.toUpperCase().split('.')[0]} |\n`)
+  files.forEach(file => readme += `| ![${file}](https://raw.githubusercontent.com/chrisoverstreet/icons/master/src/${file}) | ${file.split('.')[0]} |\n`)
 
   readme += `
 
