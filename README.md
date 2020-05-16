@@ -10,14 +10,8 @@ Convert svgs to react components and compile
 npm run build
 ```
 
-Make sure to update version before publishing
+Update minor release version and publish to npm (you must sign in first via `npm login`).
 
 ```
-npm run version
-```
-
-Publish to npm (you'll need to sign in to npm via `npm login` first).
-
-```
-npm run publish
+npm run releease
 ```
