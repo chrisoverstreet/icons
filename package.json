@@ -1,0 +1,29 @@
+{
+  "name": "@chrisoverstreet/icons",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -R dist && svgr src --out-dir dist --no-dimensions --native",
+    "release": "npm version minor && npm publish . --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisoverstreet/icons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisoverstreet/icons/issues"
+  },
+  "homepage": "https://github.com/chrisoverstreet/icons#readme",
+  "dependencies": {
+    "react-native-svg": "^12.1.0"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^5.4.0",
+    "npm-publish": "^0.4.7",
+    "npm-version": "^1.1.0"
+  }
+}
